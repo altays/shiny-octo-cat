@@ -1,0 +1,106 @@
+/* base */
+
+:root {
+    --dark-purple:#380167;
+    --light-gray:#CDDBE8;
+    --med-blue:#0B04D9;
+    --dark-blue:#05014D;
+    --off-white:#F8FEFA;
+
+    --main-bg-color:var(--off-white);
+    --heading-color:var(--dark-blue);
+    --heading-highlight-color:var(--dark-blue);
+    --link-color:var(--med-blue);
+    --link-highlight:var(--dark-blue);
+    --header-text-color:var(--dark-blue);
+    --font-color:var(--dark-blue);
+}
+
+html {
+    background-image: url("./bridge-icon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: var(--main-bg-color);
+
+}
+
+body {
+    background-color: var(--main-bg-color);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: var(--font-color);
+    border-radius: 1rem;
+    opacity: 95%;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-bottom:0rem;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+/* elements */
+
+a {
+    color:var(--link-color);
+}
+
+footer {
+    padding-bottom: 1rem;
+}
+
+hr {
+    background:var(--heading-highlight-color)
+}
+
+
+h1 {
+    padding: 1rem 0rem 0rem 0rem;
+    color:var(--header-text-color)
+}
+
+main {
+    padding: 0rem 2rem 3rem 2rem;
+    margin: 0rem 4rem;
+}
+
+/* classes */
+
+.d-inline-block {
+    display: inline-block;
+}
+
+
+.header {
+    min-height: 0;
+    margin: auto 0;
+}
+
+.title-link,
+.title-link:hover {
+    color: var(--heading-color);
+    text-decoration: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-33 {
+    width: 33%;
+}
+.w-50 {
+    width: 49%;
+}
+
+/* psuedo-classes */
+
+a:hover {
+    color:var(--link-highlight);
+    text-decoration: none;
+}
