@@ -64,7 +64,7 @@ h1 {
     color:var(--header-text-color)
 }
 
-main {
+body {
     padding: 0rem 2rem 3rem 2rem;
     margin: 0rem 1rem;
 }
